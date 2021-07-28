@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScoreActivity">
+
+    <RelativeLayout
+        android:id="@+id/score_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/persean_blue"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/score_card_view"
+        android:layout_below="@id/score_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="10dp"
+        app:cardElevation="10dp"
+        android:layout_height="200dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:background="@color/yellow">
+
+            <TextView
+                android:id="@+id/cong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score_congrad"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:textStyle="normal"
+                android:textSize="15sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/score_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/cong"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/score_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8 / 10"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/score_text"
+                android:textStyle="bold"
+                android:textSize="35sp"
+                android:textColor="@color/black"/>
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/score_done_btn"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/done_button"
+        android:textSize="20sp"/>
+
+
+
+
+</RelativeLayout>

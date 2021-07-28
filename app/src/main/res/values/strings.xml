@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_home">Science MCQ Collection</string>
+    <string name="app_name">Science Made Easy</string>
+
+    <string name="splash_h1">විද්‍යාව ප්‍රශ්නෝත්තර</string>
+    <string name="splash_h2">සංග්‍රහය</string>
+    <string name="splash_h3">Powered By Animesoft.</string>
+
+    <string name="home_h1">Hello</string>
+    <string name="home_h2">What Are You Going To Learn Today?</string>
+
+    <string name="medium_eng">English Medium Papers</string>
+    <string name="medium_sinhala">Sinhala Medium Papers</string>
+
+    <string name="paper_set">විද්‍යාව පලමු ප්‍රශ්න පත්‍රය.</string>
+
+    <string name="category">විද්‍යාව පලමු ප්‍රශ්න පත්‍රය.</string>
+
+    <string name="paper">Paper Collection -</string>
+
+
+    <string name="start">Start</string>
+    <string name="start_h1">Science For The Life..</string>
+
+    <string name="qustion">Please check your internet connection or update the app.</string>
+
+    <string name="option1">Option A</string>
+    <string name="option2">Option B</string>
+    <string name="option3">Option C</string>
+    <string name="option4">Option D</string>
+
+
+    <string name="score_congrad">Congratulations!</string>
+    <string name="score">Your Score</string>
+
+
+    <string name="done_button">Done</string>
+
+</resources>
